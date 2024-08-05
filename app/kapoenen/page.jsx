@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar";
 import Image from "next/image";
 
 export default function KapoenenPage() {
@@ -78,8 +78,6 @@ export default function KapoenenPage() {
               <strong>Telefoon:</strong> nummer
             </p>
           </div>
-
-
           <div className="flex-1">
             <div className="relative w-full h-96">
               <Image
@@ -90,7 +88,6 @@ export default function KapoenenPage() {
                 className="rounded-md"
               />
             </div>
-            
           </div>
         </div>
       </section>
