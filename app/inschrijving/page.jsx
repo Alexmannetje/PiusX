@@ -37,8 +37,7 @@ export default function InschrijvingPage() {
       <Navbar />
       <section className="container mx-auto px-4 md:px-6 my-12">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
-          Inschrijving Kinderen
-        </h1>
+Leden inschrijven        </h1>
         <div className="bg-background p-6 rounded-md shadow-md">
           <p className="mb-4 text-center text-muted-foreground">
             We bieden 3 gratis proefdagen aan! Na de proeflessen kunnen kinderen zich inschrijven.<br />

@@ -1,28 +1,45 @@
-import Navbar from "@/components/navbar";
-import Link from "next/link";
+import Navbar from '@/components/navbar';
+import Image from 'next/image';
 
-export default function ComingSoon() {
+const fotos = {
+  '2023-2024': [
+    { src: '/foto1.jpg', alt: 'Foto 1' },
+    { src: '/foto2.jpg', alt: 'Foto 2' },
+    { src: '/foto3.jpg', alt: 'Foto 3' },
+    // Voeg hier meer foto's toe voor het schooljaar 2023-2024
+  ],
+  // Voeg hier andere schooljaren toe
+};
+
+export default function FotosPage() {
   return (
     <div>
       <Navbar />
-      <div className="flex min-h-screen items-center justify-center bg-muted p-4">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-primary mb-4">
-            Nog Meer Komt Aan!
-          </h1>
-          <p className="text-lg text-muted-foreground mb-8">
-            We zijn bezig met het voorbereiden van iets geweldigs. Blijf op de
-            hoogte!
-          </p>
-          <Link
-            href="/"
-            className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-            prefetch={false}
-          >
-            Terug naar Home
-          </Link>
-        </div>
-      </div>
+      <section className="container mx-auto px-4 md:px-6 my-12">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
+          Foto&apos;s
+        </h1>
+        
+        {Object.keys(fotos).map((jaar) => (
+          <div key={jaar} className="mb-12">
+            <h2 className="text-2xl font-bold mb-6 text-center">{jaar}</h2>
+            <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              {fotos[jaar].map((foto, index) => (
+                <div key={index} className="relative w-full h-60 rounded-md overflow-hidden">
+                  <Image
+                    src={foto.src}
+                    alt={foto.alt}
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-md"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+        
+      </section>
     </div>
   );
 }
