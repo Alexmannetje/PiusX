@@ -8,8 +8,8 @@ const Navbar = () => {
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
           <Image
             src="/piusxlogo.png"
-            width={40}
-            height={40}
+            width={32}
+            height={32}
             alt="logo"
           />
           <span className="text-3xl font-bold">Pius X</span>
