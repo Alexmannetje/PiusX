@@ -1,78 +1,63 @@
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 
-export default function Kapoenen() {
+export default function Jonggivers() {
   return (
     <div>
       <Navbar />
       <section className="container mx-auto my-12 p-4">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
-          Leiding Kapoenen
+          Leiding Jonggivers
         </h1>
         <div className="flex flex-wrap justify-around gap-8 mb-8">
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
               <Image
-                src="/milan V.jpg"
-                alt="Milan V.B."
+                src="/joppe D.jpg"
+                alt="Joppe D."
                 layout="fill"
                 objectFit="cover"
                 className="rounded-t-md"
               />
             </div>
-            <h2 className="text-lg font-semibold text-center">Milan Van Besien</h2>
+            <h2 className="text-lg font-semibold text-center">Joppe Dechamps</h2>
             <p className="text-muted-foreground text-center">Totem: </p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
               <Image
-                src="/jabir M.jpg"
-                alt="Jabir M."
+                src="/dago V.jpg"
+                alt="Dago V."
                 layout="fill"
                 objectFit="cover"
                 className="rounded-t-md"
               />
             </div>
-            <h2 className="text-lg font-semibold text-center">Jabir M.</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <h2 className="text-lg font-semibold text-center">Dago Vilain</h2>
+            <p className="text-muted-foreground text-center">Totem: Ongedwongen Salangaan</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
               <Image
-                src="/borg S.jpg"
-                alt="Borg S."
+                src="/Rik F.jpg"
+                alt="Rik F."
                 layout="fill"
                 objectFit="cover"
                 className="rounded-t-md"
               />
             </div>
-            <h2 className="text-lg font-semibold text-center">Borg Smets</h2>
+            <h2 className="text-lg font-semibold text-center">Rik Firens</h2>
             <p className="text-muted-foreground text-center">
-              Totem: Noeste Hathi
-            </p>
-          </div>
-          <div className="rounded-md border bg-background p-4 shadow-sm w-64">
-            <div className="relative w-full h-64 mb-4">
-              <Image
-                src="/lucas B.jpg"
-                alt="Lucas B."
-                layout="fill"
-                objectFit="cover"
-                className="rounded-t-md"
-              />
-            </div>
-            <h2 className="text-lg font-semibold text-center">Lucas Bergmans</h2>
-            <p className="text-muted-foreground text-center">
-              Totem: Levenslustige Conejo
+              Totem: Welwillend Zeepaardje
             </p>
           </div>
         </div>
         <div className="flex flex-wrap gap-8">
           <div className="flex-1 bg-background p-6 rounded-md shadow-md">
-            <h2 className="text-xl font-bold mb-4">Over de Kapoenenleiding</h2>
+            <h2 className="text-xl font-bold mb-4">Over de jonggiverleiding</h2>
             <p className="text-muted-foreground mb-4">beschrijving </p>
             <p className="text-muted-foreground mb-4">
-              <strong>Email:</strong> kapoenen@example.com
+              <strong>Email:</strong> jonggivers@example.com
             </p>
             <p className="text-muted-foreground">
               <strong>Telefoon:</strong> nummer
@@ -81,8 +66,8 @@ export default function Kapoenen() {
           <div className="flex-1">
             <div className="relative w-full h-96">
               <Image
-                src="/kapoenenleiding.jpg"
-                alt="Groepsfoto Kapoenenleiding"
+                src="/jonggiverleiding.jpg"
+                alt="Groepsfoto jonggiverleiding"
                 layout="fill"
                 objectFit="cover"
                 className="rounded-md"
