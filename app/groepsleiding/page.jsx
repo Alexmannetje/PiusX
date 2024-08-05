@@ -26,7 +26,7 @@ export default function Groepsleiding() {
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
               <Image
-                src="/Emilie H.jpg"
+                src="/emilie H.jpg"
                 alt="Emilie H."
                 layout="fill"
                 objectFit="cover"
