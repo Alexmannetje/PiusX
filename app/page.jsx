@@ -28,12 +28,16 @@ export default function Component() {
                   className="rounded-md"
                   style={{ opacity: 1 }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-muted to-transparent"></div>
+                <div className="absolute inset-0">
+                  <div
+                    className="absolute inset-0 bg-gradient-to-r from-muted to-transparent"
+                    style={{ width: "33%" }}
+                  ></div>
+                </div>
               </div>
             </div>
           </div>
         </section>
-
         <section className="bg-background py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid gap-8 md:grid-cols-2 lg:gap-16">

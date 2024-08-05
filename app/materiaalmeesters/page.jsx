@@ -46,7 +46,7 @@ export default function Materiaalmeesters() {
                 className="rounded-t-md"
               />
             </div>
-            <h2 className="text-lg font-semibold text-center">Dario</h2>
+            <h2 className="text-lg font-semibold text-center">Dario F.</h2>
             <p className="text-muted-foreground text-center">
               Totem:
             </p>
