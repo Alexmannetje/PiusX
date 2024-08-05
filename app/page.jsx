@@ -60,7 +60,7 @@ export default function Component() {
                       juli 2024
                     </span>
                     <Link
-                      href="#"
+                      href="/kalender"
                       className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                       prefetch={false}
                     >
@@ -76,10 +76,10 @@ export default function Component() {
                   </p>
                   <div className="mt-4 flex items-center justify-between">
                     <span className="text-sm text-muted-foreground">
-                      16 september 2024
+                      15 september 2024
                     </span>
                     <Link
-                      href="#"
+                      href="kalender"
                       className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                       prefetch={false}
                     >
@@ -114,7 +114,7 @@ export default function Component() {
                 </p>
                 <div className="mt-6 flex flex-col gap-4 sm:flex-row">
                   <Link
-                    href="/inschrijving"
+                    href="/inschrijven"
                     className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                     prefetch={false}
                   >
@@ -130,64 +130,13 @@ export default function Component() {
         <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-6 md:flex-row md:py-8">
           <div className="flex items-center gap-2">
             <Image src="/piusxlogo.png" width={32} height={32} alt="logo" />
-            <span className="text-lg font-bold">Scouts</span>
+            <span className="text-lg font-bold">Pius X</span>
           </div>
-          <nav className="flex flex-wrap items-center gap-4">
-            <Link
-              href="#"
-              className="text-sm font-medium hover:underline hover:underline-offset-4"
-              prefetch={false}
-            >
-              Kalender
-            </Link>
-            <Link
-              href="#"
-              className="text-sm font-medium hover:underline hover:underline-offset-4"
-              prefetch={false}
-            >
-              Contact
-            </Link>
-            <Link
-              href="#"
-              className="text-sm font-medium hover:underline hover:underline-offset-4"
-              prefetch={false}
-            >
-              Nieuws
-            </Link>
-            <Link
-              href="#"
-              className="text-sm font-medium hover:underline hover:underline-offset-4"
-              prefetch={false}
-            >
-              Over ons
-            </Link>
-          </nav>
           <p className="text-sm text-primary-foreground/80">
             &copy; 2024 Scouts
           </p>
         </div>
       </footer>
     </div>
-  );
-}
-
-function MenuIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <line x1="4" x2="20" y1="12" y2="12" />
-      <line x1="4" x2="20" y1="6" y2="6" />
-      <line x1="4" x2="20" y1="18" y2="18" />
-    </svg>
   );
 }

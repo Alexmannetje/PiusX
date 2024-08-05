@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Navbar from '@/components/navbar';
 
-export default function InschrijvingPage() {
+export default function Inschrijven() {
   const [formData, setFormData] = useState({
     naam: '',
     telefoonnummer: '',

@@ -6,7 +6,7 @@ import Navbar from '@/components/navbar';
 const nieuwsbrievenData = [
   {
     titel: 'Test',
-    inhoud: 'audaukdahdljka'
+    inhoud: 'brief komt hier'
   },
   // Voeg hier andere nieuwsbrieven toe indien beschikbaar
 ];
