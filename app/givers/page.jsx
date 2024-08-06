@@ -22,7 +22,7 @@ export default function Givers() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Elisa Janvier</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <p className="text-muted-foreground text-center">Frizzleshizzle oranje Altruïstische Caprinae </p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -35,7 +35,7 @@ export default function Givers() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Lowik Schrijvers</h2>
-            <p className="text-muted-foreground text-center">Totem:</p>
+            <p className="text-muted-foreground text-center">Mantis groen Trouwhartig Vogelbekdier</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -48,9 +48,7 @@ export default function Givers() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Victor Delathouwer</h2>
-            <p className="text-muted-foreground text-center">
-              Totem:
-            </p>
+            <p className="text-muted-foreground text-center">Roadrunner blauwe Snaakse Arassari</p>
           </div>
         </div>
         <div className="flex flex-wrap gap-8">

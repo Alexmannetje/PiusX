@@ -94,6 +94,29 @@ export default function Component() {
         </section>
         <section className="bg-muted py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6">
+            <div className="grid gap-8 md:grid-cols-2 lg:gap-16">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  Recente Nieuwsbrieven
+                </h2>
+                <p className="mt-4 text-muted-foreground md:text-xl">
+                  Blijf op de hoogte van ons laatste nieuws en updates door onze recente nieuwsbrieven te lezen.
+                </p>
+              </div>
+              <div className="flex items-center">
+                <Link
+                  href="/nieuwsbrieven"
+                  className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  prefetch={false}
+                >
+                  Bekijk Nieuwsbrieven
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="bg-background py-12 md:py-24 lg:py-32">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col md:flex-row gap-8 md:gap-16">
               <div className="relative flex-1 min-h-[300px] md:min-h-[400px]">
                 <Image

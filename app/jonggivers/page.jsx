@@ -22,7 +22,7 @@ export default function Jonggivers() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Joppe Dechamps</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <p className="text-muted-foreground text-center">Melman bruine Oprechte Aloeatta</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -35,7 +35,7 @@ export default function Jonggivers() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Dago Vilain</h2>
-            <p className="text-muted-foreground text-center">Totem: Ongedwongen Salangaan</p>
+            <p className="text-muted-foreground text-center">Plasma paarse Ongedwongen Salangaan</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -48,9 +48,7 @@ export default function Jonggivers() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Rik Firens</h2>
-            <p className="text-muted-foreground text-center">
-              Totem: Welwillend Zeepaardje
-            </p>
+            <p className="text-muted-foreground text-center">Anza-Borego bruin Welwillend Zeepaardje</p>
           </div>
         </div>
         <div className="flex flex-wrap gap-8">

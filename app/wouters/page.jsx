@@ -22,7 +22,7 @@ export default function Wouters() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Eline Briels</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <p className="text-muted-foreground text-center">Goedhartige Vari</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -35,7 +35,7 @@ export default function Wouters() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Alexander Mannaerts</h2>
-            <p className="text-muted-foreground text-center">Totem: Curieuze Kraanvogel</p>
+            <p className="text-muted-foreground text-center">Tortuguero groene Curieuze Kraanvogel</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -48,9 +48,7 @@ export default function Wouters() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Seppe Van De Parre</h2>
-            <p className="text-muted-foreground text-center">
-              Totem: Oprechte Klauwier
-            </p>
+            <p className="text-muted-foreground text-center">Agaat rode Oprechte Klauwier</p>
           </div>
         </div>
         <div className="flex flex-wrap gap-8">

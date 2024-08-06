@@ -22,7 +22,7 @@ export default function Groepsleiding() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Yassin Akkabouz</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <p className="text-muted-foreground text-center">Mushu goude Ongeremde Saki</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -35,7 +35,7 @@ export default function Groepsleiding() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Emilie Heuten</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <p className="text-muted-foreground text-center">Violet paarse Amicale Vink</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -48,9 +48,7 @@ export default function Groepsleiding() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Milan Van Besien</h2>
-            <p className="text-muted-foreground text-center">
-              Totem:
-            </p>
+            <p className="text-muted-foreground text-center">Shang rode Opgetogen Agame</p>
           </div>
         </div>
         <div className="flex flex-wrap gap-8">

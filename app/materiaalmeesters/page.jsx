@@ -22,7 +22,7 @@ export default function Materiaalmeesters() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Lucas Janvier</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <p className="text-muted-foreground text-center">Lightning-Mcqueen rode Trotse Hauki</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -35,7 +35,7 @@ export default function Materiaalmeesters() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Rune Wouters</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <p className="text-muted-foreground text-center">Woestijn roosbruine Warmbloedige Dryomys</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -48,9 +48,7 @@ export default function Materiaalmeesters() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Dario F.</h2>
-            <p className="text-muted-foreground text-center">
-              Totem:
-            </p>
+            <p className="text-muted-foreground text-center">Markante Amazillia</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -63,9 +61,7 @@ export default function Materiaalmeesters() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Jens Claessens</h2>
-            <p className="text-muted-foreground text-center">
-              Totem: 
-            </p>
+            <p className="text-muted-foreground text-center">Safier blauwe Bedachtzame Apella</p>
           </div>
         </div>
         <div className="flex flex-wrap gap-8">

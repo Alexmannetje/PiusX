@@ -22,7 +22,7 @@ export default function Kapoenen() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Milan Van Besien</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <p className="text-muted-foreground text-center">Shang rode Opgetogen Agame</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -35,7 +35,7 @@ export default function Kapoenen() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Jabir M.</h2>
-            <p className="text-muted-foreground text-center">Totem: </p>
+            <p className="text-muted-foreground text-center">Authentieke Arakanga</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -48,9 +48,7 @@ export default function Kapoenen() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Borg Smets</h2>
-            <p className="text-muted-foreground text-center">
-              Totem: Noeste Hathi
-            </p>
+            <p className="text-muted-foreground text-center">Fagacea bruine Noeste Hathi</p>
           </div>
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
@@ -63,9 +61,7 @@ export default function Kapoenen() {
               />
             </div>
             <h2 className="text-lg font-semibold text-center">Lucas Bergmans</h2>
-            <p className="text-muted-foreground text-center">
-              Totem: Levenslustige Conejo
-            </p>
+            <p className="text-muted-foreground text-center">Nebulaterra oranje Levenslustige Conejo</p>
           </div>
         </div>
         <div className="flex flex-wrap gap-8">
