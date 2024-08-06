@@ -105,7 +105,7 @@ export default function Component() {
                   Blijf op de hoogte van ons laatste nieuws en updates door onze recente nieuwsbrieven te lezen.
                 </p>
               </div>
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-col space-y-2">
                 <p className="text-lg font-semibold ml-4">Laatste nieuwsbrief</p>
                 <div className="rounded-md border bg-background p-4 shadow-sm">
                   <h3 className="text-lg font-semibold">Laatste nieuwsbrief</h3>
