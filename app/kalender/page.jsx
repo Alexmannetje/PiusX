@@ -33,7 +33,7 @@ export default function KalenderPage() {
               key={year}
               onClick={() => setSelectedYear(year)}
               className={`px-4 py-2 rounded-md transition-colors duration-300 ${
-                selectedYear === year ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'
+                selectedYear === year ? 'bg-primary text-white' : 'bg-gray-200 text-gray-800'
               }`}
             >
               {year}

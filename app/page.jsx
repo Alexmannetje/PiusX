@@ -41,16 +41,9 @@ export default function Component() {
         </section>
         <section className="bg-background py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6">
+
             <div className="grid gap-8 md:grid-cols-2 lg:gap-16">
-              <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Aankomende Evenementen
-                </h2>
-                <p className="mt-4 text-muted-foreground md:text-xl">
-                  Bekijk onze aankomende evenementen en activiteiten.
-                </p>
-              </div>
-              <div className="space-y-4">
+                           <div className="space-y-4">
                 <div className="rounded-md border bg-background p-4 shadow-sm">
                   <h3 className="text-lg font-semibold">Kamp</h3>
                   <p className="mt-2 text-muted-foreground">
@@ -89,10 +82,19 @@ export default function Component() {
                   </div>
                 </div>
               </div>
+              <div className="my-auto">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  Aankomende Evenementen
+                </h2>
+                <p className="mt-4 text-muted-foreground md:text-xl">
+                  Bekijk onze aankomende evenementen en activiteiten.
+                </p>
+              </div>
+ 
             </div>
           </div>
         </section>
-        <section className="bg-muted py-12 md:py-24 lg:py-32">
+        <section className="bg-muted py-8 md:py-16 lg:py-24">
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid gap-8 md:grid-cols-2 lg:gap-16">
               <div>
@@ -103,14 +105,24 @@ export default function Component() {
                   Blijf op de hoogte van ons laatste nieuws en updates door onze recente nieuwsbrieven te lezen.
                 </p>
               </div>
-              <div className="flex items-center">
-                <Link
-                  href="/nieuwsbrieven"
-                  className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-                  prefetch={false}
-                >
-                  Bekijk Nieuwsbrieven
-                </Link>
+              <div className="flex flex-col space-y-4">
+                <p className="text-lg font-semibold ml-4">Laatste nieuwsbrief</p>
+                <div className="rounded-md border bg-background p-4 shadow-sm">
+                  <h3 className="text-lg font-semibold">Laatste nieuwsbrief</h3>
+                  <p className="mt-2 text-muted-foreground">
+                    Bekijk de laatste nieuwsbrief van augustus 2024 met alle updates en belangrijke informatie.
+                  </p>
+                  
+                </div>
+                <div className="flex items-center">
+                  <Link
+                    href="/nieuwsbrieven"
+                    className="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                    prefetch={false}
+                  >
+                    Bekijk Nieuwsbrieven
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

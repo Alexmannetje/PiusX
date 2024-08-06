@@ -20,7 +20,7 @@ const InfoPage = () => {
                   <Link href="/kapoenen" className="w-full">
                     <div className="relative w-full h-60 mb-4">
                       <Image
-                        src="/kapoenenleiding.jpg"
+                        src="/logokapoenen.jpg"
                         alt="groepsfoto kapoenenleiding"
                         layout="fill"
                         objectFit="cover"
@@ -37,7 +37,7 @@ const InfoPage = () => {
                   <Link href="/wouters" className="w-full">
                     <div className="relative w-full h-60 mb-4">
                       <Image
-                        src="/wouterleiding.jpg"
+                        src="/logowouters.jpg"
                         alt="groepsfoto Wouterleiding"
                         layout="fill"
                         objectFit="cover"
@@ -54,7 +54,7 @@ const InfoPage = () => {
                   <Link href="/jonggivers" className="w-full">
                     <div className="relative w-full h-60 mb-4">
                       <Image
-                        src="/jonggiverleiding.jpg"
+                        src="/logojonggivers.jpg"
                         alt="groepsfoto Jonggiverleiding"
                         layout="fill"
                         objectFit="cover"
@@ -71,7 +71,7 @@ const InfoPage = () => {
                   <Link href="/givers" className="w-full">
                     <div className="relative w-full h-60 mb-4">
                       <Image
-                        src="/giverleiding.jpg"
+                        src="/logogivers.jpg"
                         alt="groepsfoto Giverleiding"
                         layout="fill"
                         objectFit="cover"
@@ -90,7 +90,7 @@ const InfoPage = () => {
                 >
                   <div className="relative w-full h-60 mb-4">
                     <Image
-                      src="/groepsleiding.jpg"
+                      src="/yassin A.jpg"
                       alt="Groepsfoto Groepsleiding"
                       layout="fill"
                       objectFit="cover"
@@ -106,7 +106,7 @@ const InfoPage = () => {
                 >
                   <div className="relative w-full h-60 mb-4">
                     <Image
-                      src="/Materiaalmeesters.jpg"
+                      src="/jens C.jpg"
                       alt="Groepsfoto Materiaalmeesters"
                       layout="fill"
                       objectFit="cover"

@@ -9,7 +9,6 @@ const nieuwsbrievenData = [
     titel: 'Test',
     inhoud: 'brief komt hier'
   },
-  // Voeg hier andere nieuwsbrieven toe indien beschikbaar
 ];
 
 export default function NieuwsbrievenPage() {
