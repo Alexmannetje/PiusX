@@ -97,7 +97,7 @@ export default function Component() {
             <div className="flex flex-col md:flex-row gap-8 md:gap-16">
               <div className="relative flex-1 min-h-[300px] md:min-h-[400px]">
                 <Image
-                  src="/piusx.png"
+                  src="/piusx.jpg"
                   alt="PiusX Logo"
                   layout="fill"
                   objectFit="contain"

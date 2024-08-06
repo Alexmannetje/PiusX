@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
           <Image
-            src="/piusxlogo.png"
+            src="/piusxlogo.jpg"
             width={32}
             height={32}
             alt="logo"

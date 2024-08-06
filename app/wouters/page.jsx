@@ -40,7 +40,7 @@ export default function Wouters() {
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
               <Image
-                src="/Seppe V.jpg"
+                src="/seppe V.jpg"
                 alt="Seppe V."
                 layout="fill"
                 objectFit="cover"

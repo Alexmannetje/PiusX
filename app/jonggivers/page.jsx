@@ -40,7 +40,7 @@ export default function Jonggivers() {
           <div className="rounded-md border bg-background p-4 shadow-sm w-64">
             <div className="relative w-full h-64 mb-4">
               <Image
-                src="/Rik F.jpg"
+                src="/rik F.jpg"
                 alt="Rik F."
                 layout="fill"
                 objectFit="cover"
