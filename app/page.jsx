@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/navbar";
+import Footer from '@/components/footer';
 
 export default function Component() {
   return (
@@ -126,17 +127,7 @@ export default function Component() {
           </div>
         </section>
       </main>
-      <footer className="bg-primary text-primary-foreground">
-        <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 py-6 md:flex-row md:py-8">
-          <div className="flex items-center gap-2">
-            <Image src="/piusxlogo.png" width={32} height={32} alt="logo" />
-            <span className="text-lg font-bold">Pius X</span>
-          </div>
-          <p className="text-sm text-primary-foreground/80">
-            &copy; 2024 Scouts
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

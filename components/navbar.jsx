@@ -15,6 +15,14 @@ const Navbar = () => {
           <span className="text-3xl font-bold">Pius X</span>
         </Link>
         <nav className="flex gap-4">
+        <Link
+            href="/foerier"
+            className="rounded-md px-4 py-2 text-md font-medium hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            prefetch={false}
+          >
+            Foerier
+          </Link>
+          
           <Link
             href="/kalender"
             className="rounded-md px-4 py-2 text-md font-medium hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
@@ -36,6 +44,14 @@ const Navbar = () => {
           >
             Foto&apos;s
           </Link>
+          
+          <Link
+            href="/takken"
+            className="rounded-md px-4 py-2 text-md font-medium hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            prefetch={false}
+          >
+            Takken
+          </Link>
           <Link
             href="/inschrijven"
             className="rounded-md px-4 py-2 text-md font-medium hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
@@ -44,11 +60,11 @@ const Navbar = () => {
             Inschrijven
           </Link>
           <Link
-            href="/about"
+            href="/verhuur"
             className="rounded-md px-4 py-2 text-md font-medium hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
             prefetch={false}
           >
-            Over ons
+            Verhuur
           </Link>
         </nav>
       </div>

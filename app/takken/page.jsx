@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -120,25 +121,10 @@ const InfoPage = () => {
               </div>
             </div>
           </section>
-          <section>
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">
-              Algemene Contactgegevens
-            </h1>
-            <div className="rounded-md border bg-background p-4 shadow-sm">
-              <h2 className="text-lg font-semibold">
-                Algemene Contactinformatie
-              </h2>
-              <p className="mt-2 text-muted-foreground">Email: piusx mail</p>
-              <p className="text-muted-foreground">
-                Telefoon: eventuele nummer
-              </p>
-              <p className="text-muted-foreground">
-                Adres: Peter Benoitlaan 23, 2100 Antwerpen
-              </p>
-            </div>
-          </section>
+         
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

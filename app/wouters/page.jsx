@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import Footer from '@/components/footer';
 import Image from "next/image";
 
 export default function Wouters() {
@@ -76,6 +77,7 @@ export default function Wouters() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

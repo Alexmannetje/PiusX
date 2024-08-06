@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
 
 export default function Inschrijven() {
   const [formData, setFormData] = useState({
@@ -102,13 +103,14 @@ Leden inschrijven        </h1>
             </div>
             <button
               type="submit"
-              className="w-full px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="w-full px-4 py-2 bg-primary text-white font-semibold rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
             >
               Verzenden
             </button>
           </form>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
