@@ -56,7 +56,7 @@ export default function Jonggivers() {
         <div className="flex flex-wrap gap-8">
           <div className="flex-1 bg-background p-6 rounded-md shadow-md">
             <h2 className="text-xl font-bold mb-4">Over de jonggiverleiding</h2>
-            <p className="text-muted-foreground mb-4">beschrijving </p>
+            <p className="text-muted-foreground mb-4">Bij de jonggivers leer je je scouts vaardigheden ontwikkelen. Sjorren, kaartlezen, vuur maken, koken, het hoort er allemaal bij. Deze vaardigheden worden op kamp benut en er wordt aangeleerd zelfstandig te werk te gaan. Naast deze technieken worden doorheen het jaar natuurlijk allerlei super leuke vergaderingen en spellen gespeeld, en streven we ernaar een hechte groep te worden met zowel leiding als leden.</p>
             <p className="text-muted-foreground mb-4">
               <strong>Email:</strong> jonggivers@example.com
             </p>
