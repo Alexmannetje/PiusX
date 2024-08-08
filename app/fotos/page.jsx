@@ -7,28 +7,47 @@ import Image from 'next/image';
 
 const fotos = {
   '2023-2024': [
-    { src: '/piusx.jpg'},
-    { src: '/piusxlogo.jpg',},
-    { src: '/piusxgroep.jpg'},
-    { src: '/alexander M.jpg'},
-    { src: '/borg S.jpg'},
-    { src: '/dago V.jpg'},
-    { src: '/dario F.jpg'},
-    { src: '/eline B.jpg',},
-    { src: '/elisa J.jpg'},
-    { src: '/emilie H.jpg'},
-    { src: '/hanne F.jpg'},
-    { src: '/jabir M.jpg'},
+    { src: '/piusx.jpg' },
+    { src: '/piusxlogo.jpg' },
+    { src: '/piusxgroep.jpg' },
+    { src: '/alexander M.jpg' },
+    { src: '/borg S.jpg' },
+    { src: '/dago V.jpg' },
+    { src: '/dario F.jpg' },
+    { src: '/eline B.jpg' },
+    { src: '/elisa J.jpg' },
+    { src: '/emilie H.jpg' },
+    { src: '/hanne F.jpg' },
+    { src: '/jabir M.jpg' },
   ],
   '2024-2025': [
-    { src: '/jens C.jpg'},
-    { src: '/joppe D.jpg'},
-    { src: '/logojonggivers.jpg'},
+    { src: '/jens C.jpg' },
+    { src: '/joppe D.jpg' },
+    { src: '/logojonggivers.jpg' },
   ],
 };
 
 export default function FotosPage() {
   const [selectedYear, setSelectedYear] = useState('2023-2024');
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const openModal = (index) => {
+    setCurrentIndex(index);
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % fotos[selectedYear].length);
+  };
+
+  const prevImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + fotos[selectedYear].length) % fotos[selectedYear].length);
+  };
 
   return (
     <div>
@@ -54,10 +73,14 @@ export default function FotosPage() {
 
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {fotos[selectedYear].map((foto, index) => (
-            <div key={index} className="relative w-full h-60 rounded-md overflow-hidden">
+            <div
+              key={index}
+              className="relative w-full h-60 rounded-md overflow-hidden cursor-pointer"
+              onClick={() => openModal(index)}
+            >
               <Image
                 src={foto.src}
-                alt={foto.alt}
+                alt={`Foto ${index + 1}`}
                 layout="fill"
                 objectFit="cover"
                 className="rounded-md"
@@ -65,8 +88,39 @@ export default function FotosPage() {
             </div>
           ))}
         </div>
-        
       </section>
+
+      {isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
+          <button
+            className="absolute top-4 right-4 text-white text-3xl focus:outline-none"
+            onClick={closeModal}
+          >
+            &times;
+          </button>
+          <button
+            className="absolute left-4 text-white text-3xl focus:outline-none"
+            onClick={prevImage}
+          >
+            &#8249;
+          </button>
+          <Image
+            src={fotos[selectedYear][currentIndex].src}
+            alt={`Foto ${currentIndex + 1}`}
+            width={800}
+            height={600}
+            objectFit="contain"
+            className="rounded-md"
+          />
+          <button
+            className="absolute right-4 text-white text-3xl focus:outline-none"
+            onClick={nextImage}
+          >
+            &#8250;
+          </button>
+        </div>
+      )}
+
       <Footer />
     </div>
   );
