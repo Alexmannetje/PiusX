@@ -30,13 +30,13 @@ export default function FoerierPage() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
           Foeriers
         </h1>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           {foeriers.map((foerier, index) => (
             <div
               key={index}
               className="bg-white p-8 rounded-md shadow-lg cursor-pointer hover:bg-gray-100 flex flex-col items-center"
               onClick={() => openFoerier(foerier.file)}
-              style={{ minHeight: '250px', justifyContent: 'center' }} // Ensuring all blocks are the same height
+              style={{ minHeight: '250px', justifyContent: 'center' }}
             >
               <Image
                 src={foerier.logo}
@@ -52,10 +52,10 @@ export default function FoerierPage() {
         </div>
 
         {selectedFoerier && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-            <div className="bg-white p-8 rounded-md shadow-lg relative">
+          <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
+            <div className="bg-white p-8 rounded-md shadow-lg relative max-w-full w-full sm:w-11/12 md:w-3/4 lg:w-1/2">
               <button
-                className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
+                className="absolute top-4 right-4 text-3xl text-gray-500 hover:text-gray-800"
                 onClick={closeFoerier}
               >
                 &times;
@@ -68,6 +68,7 @@ export default function FoerierPage() {
                 width="100%"
                 height="600px"
                 frameBorder="0"
+                className="rounded-md"
               ></iframe>
             </div>
           </div>

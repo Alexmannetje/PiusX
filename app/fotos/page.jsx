@@ -127,7 +127,7 @@ export default function FotosPage() {
             ))}
           </div>
         ) : (
-          <p className="text-center text-muted-foreground">Geen foto's beschikbaar voor deze activiteit.</p>
+          <p className="text-center text-muted-foreground">Geen foto&apos;s beschikbaar voor deze activiteit.</p>
         )}
       </section>
 
