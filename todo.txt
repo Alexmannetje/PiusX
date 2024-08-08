@@ -1,7 +1,14 @@
-elke leiding nieuwe foto (ook maestro)
-elke tak groepsfoto
-elke tak maakt kleine beschrijving over wie ze zijn ofzo
-goeie fotos van lokaal voor verhuur
-belangrijke data
-leuke fotos van afgelope jaar
-alle nodige info voor een nieuwe inschrijving
+kan altijd:
+    elke tak maakt kleine beschrijving over wie ze zijn ofzo
+    leuke fotos van afgelopen jaar
+
+als we allemaal samen zijn:
+    elke leiding nieuwe foto (ook maestro)
+    groepsfoto van de takleiding en maestros en grl
+
+van grl:
+    belangrijke data voor komend jaar
+    eventuele nieuwsbrieven al (soepslag ofzo)
+    alle nodige informatie om een nieuw lid in te schrijven
+    fotos van lokaal voor verhuur
+    informatie die hoort bij de verhuur van lokaal bv. prijzen ofzo idk

@@ -3,7 +3,7 @@ import Footer from "@/components/footer";
 import Link from "next/link";
 import Image from "next/image";
 
-const InfoPage = () => {
+const Takken = () => {
   return (
     <div>
       <Navbar />
@@ -23,8 +23,8 @@ const InfoPage = () => {
                         src="/logokapoenen.jpg"
                         alt="groepsfoto kapoenenleiding"
                         layout="fill"
-                        objectFit="cover"
-                        className="rounded-t-md"
+                        objectFit="contain"
+                        className="rounded-md"
                       />
                     </div>
                     <h2 className="text-lg font-semibold mb-2">
@@ -40,8 +40,8 @@ const InfoPage = () => {
                         src="/logowouters.jpg"
                         alt="groepsfoto Wouterleiding"
                         layout="fill"
-                        objectFit="cover"
-                        className="rounded-t-md"
+                        objectFit="contain"
+                        className="rounded-md"
                       />
                     </div>
                     <h2 className="text-lg font-semibold mb-2">
@@ -57,8 +57,8 @@ const InfoPage = () => {
                         src="/logojonggivers.jpg"
                         alt="groepsfoto Jonggiverleiding"
                         layout="fill"
-                        objectFit="cover"
-                        className="rounded-t-md"
+                        objectFit="contain"
+                        className="rounded-md"
                       />
                     </div>
                     <h2 className="text-lg font-semibold mb-2">
@@ -74,8 +74,8 @@ const InfoPage = () => {
                         src="/logogivers.jpg"
                         alt="groepsfoto Giverleiding"
                         layout="fill"
-                        objectFit="cover"
-                        className="rounded-t-md"
+                        objectFit="contain"
+                        className="rounded-md"
                       />
                     </div>
                     <h2 className="text-lg font-semibold mb-2">Giverleiding</h2>
@@ -90,14 +90,14 @@ const InfoPage = () => {
                 >
                   <div className="relative w-full h-60 mb-4">
                     <Image
-                      src="/yassin A.jpg"
+                      src="/logogroepsleiding.jpg"
                       alt="Groepsfoto Groepsleiding"
                       layout="fill"
-                      objectFit="cover"
-                      className="rounded-t-md"
+                      objectFit="contain"
+                      className="rounded-md"
                     />
                   </div>
-                  <h2 className="text-lg font-semibold mb-2">groepsleiding</h2>
+                  <h2 className="text-lg font-semibold mb-2">Groepsleiding</h2>
                   <p className="text-md">Klik voor meer info</p>
                 </Link>
                 <Link
@@ -106,22 +106,21 @@ const InfoPage = () => {
                 >
                   <div className="relative w-full h-60 mb-4">
                     <Image
-                      src="/jens C.jpg"
+                      src="/logomateriaalmeesters.jpg"
                       alt="Groepsfoto Materiaalmeesters"
                       layout="fill"
-                      objectFit="cover"
-                      className="rounded-t-md"
+                      objectFit="contain"
+                      className="rounded-md"
                     />
                   </div>
                   <h2 className="text-lg font-semibold mb-2">
-                    materiaal meesters
+                    Materiaalmeesters
                   </h2>
                   <p className="text-md">Klik voor meer info</p>
                 </Link>
               </div>
             </div>
           </section>
-         
         </div>
       </main>
       <Footer />
@@ -129,4 +128,4 @@ const InfoPage = () => {
   );
 };
 
-export default InfoPage;
+export default Takken;
